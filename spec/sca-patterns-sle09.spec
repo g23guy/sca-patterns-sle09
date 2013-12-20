@@ -11,6 +11,7 @@
 %define patuser root
 %define patgrp root
 %define patdir /var/opt/%{produser}/patterns
+%define mode 544
 %define category SLE
 
 Name:         sca-patterns-sle09
@@ -44,7 +45,7 @@ pwd;ls -la
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT/%{patdir}/%{category}
 install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle9all
-install -m 544 patterns/%{category}/sle9all/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle9all
+install -m %{mode} patterns/%{category}/sle9all/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle9all
 
 %files
 %defattr(-,%{patuser},%{patgrp})
@@ -52,8 +53,7 @@ install -m 544 patterns/%{category}/sle9all/* $RPM_BUILD_ROOT/%{patdir}/%{catego
 %dir %{patdir}
 %dir %{patdir}/%{category}
 %dir %{patdir}/%{category}/sle9all
-%attr(555,%{patuser},%{patgrp}) %{patdir}/%{category}/sle9all/*
-
+%attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle9all/*
 
 %clean
 rm -rf $RPM_BUILD_ROOT
