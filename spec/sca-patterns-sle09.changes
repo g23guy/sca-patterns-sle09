@@ -1,0 +1,18 @@
+-------------------------------------------------------------------
+Fri Jan 31 19:40:49 UTC 2014 - jrecord@suse.com
+
+- includes pertinent patterns from sca-patterns-basic
+
+-------------------------------------------------------------------
+Thu Jan 16 10:13:41 MST 2014 jrecord@suse.com
+
+- relocated files according to FHS
+
+-------------------------------------------------------------------
+Wed Dec 20 10:13:41 MST 2013 jrecord@suse.com
+
+- separated as individual RPM package
+- added
+  javaibm-SUSE-SU-2013_1677-1.pl sle9
+
+
