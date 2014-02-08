@@ -24,7 +24,7 @@ Group:        Documentation/SuSE
 License:      GPL-2.0
 Autoreqprov:  on
 Version:      1.3
-Release:      3
+Release:      4
 Source:       %{name}-%{version}.tar.gz
 BuildRoot:    %{_tmppath}/%{name}-%{version}
 Buildarch:    noarch
@@ -47,6 +47,8 @@ pwd;ls -la
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT/%{patdir}/%{category}
 install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle9all
+install -d $RPM_BUILD_ROOT/usr/share/doc/packages/%{sca_common}
+install -m 444 patterns/COPYING.GPLv2 $RPM_BUILD_ROOT/usr/share/doc/packages/%{sca_common}
 install -m %{mode} patterns/%{category}/sle9all/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle9all
 
 %files
@@ -55,6 +57,8 @@ install -m %{mode} patterns/%{category}/sle9all/* $RPM_BUILD_ROOT/%{patdir}/%{ca
 %dir %{patdir}
 %dir %{patdir}/%{category}
 %dir %{patdir}/%{category}/sle9all
+%dir /usr/share/doc/packages/%{sca_common}
+%doc %attr(-,root,root) /usr/share/doc/packages/%{sca_common}/*
 %attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle9all/*
 
 %clean
