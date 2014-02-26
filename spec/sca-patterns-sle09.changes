@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Sat Feb  8 22:25:50 UTC 2014 - jrecord@suse.com
+
+- Packaged COPYING.GPLv2
+
+-------------------------------------------------------------------
 Fri Jan 31 19:40:49 UTC 2014 - jrecord@suse.com
 
 - includes pertinent patterns from sca-patterns-basic
