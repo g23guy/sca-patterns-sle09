@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Apr  2 21:17:21 UTC 2014 - jrecord@suse.com
+
+- New Security Patterns
+  sle9all/gnutls-SUSE-SU-2014_0324-1.pl
+  sle9all/javaibm-SUSE-SU-2014_0266-1.pl
+
+-------------------------------------------------------------------
 Thu Mar 13 17:30:52 UTC 2014 - jrecord@suse.com
 
 - Fixed FSF address in all patterns
