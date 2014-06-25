@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Jun 25 19:23:57 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  openssl-SUSE-SU-2014_0768-1.pl
+
+-------------------------------------------------------------------
 Tue Apr 22 16:31:46 UTC 2014 - jrecord@suse.com
 
 - Fixed Use of uninitialized value in addition in bhc-cpucs-00001.pl
