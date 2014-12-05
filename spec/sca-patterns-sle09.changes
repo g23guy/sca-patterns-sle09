@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Fri Dec  5 21:53:43 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle9all/bind_SUSE-SU-2011_1270-3_9.0.py
+  sle9all/java_SUSE-SU-2011_0863-2_9.0.py
+  sle9all/java_SUSE-SU-2011_0966-1_9.0.py
+
+-------------------------------------------------------------------
 Fri Dec  5 20:11:44 UTC 2014 - jrecord@suse.com
 
 - New Patterns
