@@ -1,4 +1,15 @@
 -------------------------------------------------------------------
+Fri Dec  5 20:11:44 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle9all/bind_SUSE-SU-2012_0741-6_9.0.py
+  sle9all/freetype2_SUSE-SU-2012_0521-1_9.0.py
+  sle9all/heimdal_SUSE-SU-2012_0024-1_9.0.py
+  sle9all/heimdal_SUSE-SU-2012_0056-1_9.0.py
+  sle9all/samba_SUSE-SU-2012_0338-1_9.0.py
+  sle9all/samba_SUSE-SU-2012_0501-2_9.0.py
+
+-------------------------------------------------------------------
 Thu Dec  4 23:01:51 UTC 2014 - jrecord@suse.com
 
 - New Patterns
