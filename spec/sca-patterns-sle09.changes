@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Dec 18 19:03:53 UTC 2017 - jason.record@suse.com
+
+- Updated spec file with spec-cleaner suggestions
+- Removed COPYING.GPLv2
+
+-------------------------------------------------------------------
 Thu Mar  3 20:16:33 UTC 2016 - jrecord@suse.com
 
 - Update Makefile
