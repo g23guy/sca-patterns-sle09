@@ -56,8 +56,5 @@ install -m %{mode} patterns/%{category}/sle9all/* %{buildroot}/%{patdir}/%{categ
 %dir %{patdir}/%{category}/sle9all
 %attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle9all/*
 
-%clean
-rm -rf %{buildroot}
-
 %changelog
 
